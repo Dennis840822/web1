@@ -42,3 +42,6 @@
 			bottom: 2vh;
 			cursor: pointer;
 		}
+		.topmenu{
+			display:inline;
+		}
