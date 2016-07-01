@@ -62,7 +62,6 @@
                 pos=$(window).height()/2-$(".nav").height()/2
                 $(".nav").css("top",pos)
             }
-$(document).ready(function() {
 			$(".nav li:eq(0)").click(function() {
 				$("html,body").animate({"scrollTop":$(".one").offset().top})
 			})
@@ -75,7 +74,6 @@ $(document).ready(function() {
 			$(".nav li:eq(3)").click(function() {
 				$("html,body").animate({"scrollTop":$(".four").offset().top})
 			})
-		})
 
 		var num_li = $("li").length
 		for (var i = 0; i < num_li; i++) {
@@ -96,7 +94,7 @@ $(document).ready(function() {
 
 
 
-            
+
 		})
 
 		
