@@ -42,6 +42,18 @@
 			bottom: 2vh;
 			cursor: pointer;
 		}
-		.topmenu{
-			display:inline;
+		.menutop{
+			width: 1000px;
+			position: absolute;
 		}
+		.menutop ul li{
+			text-align: center;
+			padding-left: 100px;
+			display: inline;
+			background-color: rgba(0, 0, 0, 0.0);
+			font-size: 50px;
+		}
+		.menutop ul li a{
+			text-decoration: none;
+		}
+		
